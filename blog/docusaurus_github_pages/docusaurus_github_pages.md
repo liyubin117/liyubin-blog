@@ -19,11 +19,11 @@ tags: [docusaurus, github pages]
 
 ### git
 
-git 下载链接：[git-scm.com/downloads](https://link.juejin.cn/?target=https%3A%2F%2Fgit-scm.com%2Fdownloads "https://git-scm.com/downloads") 自己用的是 Windows 10，下载的是：[64-bit Git for Windows Setup](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fgit-for-windows%2Fgit%2Freleases%2Fdownload%2Fv2.37.3.windows.1%2FGit-2.37.3-64-bit.exe "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe")，其他设备按照对应机型选即可。 ![image.png](docusaurus_github_pages/2386d8ad33f2404e999671c75b72dfa9~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+git 下载链接：[git-scm.com/downloads](https://link.juejin.cn/?target=https%3A%2F%2Fgit-scm.com%2Fdownloads "https://git-scm.com/downloads") 自己用的是 Windows 10，下载的是：[64-bit Git for Windows Setup](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fgit-for-windows%2Fgit%2Freleases%2Fdownload%2Fv2.37.3.windows.1%2FGit-2.37.3-64-bit.exe "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe")，其他设备按照对应机型选即可。 ![image.png](./2386d8ad33f2404e999671c75b72dfa9~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 ### Node
 
-Node 下载链接：[nodejs.org/zh-cn/](https://link.juejin.cn/?target=https%3A%2F%2Fnodejs.org%2Fzh-cn%2F "https://nodejs.org/zh-cn/") `Docusaurus`官方要求 Node.js -- v16.14 或以上版本（你可以运行`node -v`命令查看版本号），安装 Node.js 时，建议勾选所有和依赖相关的选项，其他设备按照对应机型选即可。 ![image.png](docusaurus_github_pages/6134fe5d7cd449c8982c09a99a221f62~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+Node 下载链接：[nodejs.org/zh-cn/](https://link.juejin.cn/?target=https%3A%2F%2Fnodejs.org%2Fzh-cn%2F "https://nodejs.org/zh-cn/") `Docusaurus`官方要求 Node.js -- v16.14 或以上版本（你可以运行`node -v`命令查看版本号），安装 Node.js 时，建议勾选所有和依赖相关的选项，其他设备按照对应机型选即可。 ![image.png](./6134fe5d7cd449c8982c09a99a221f62~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 ## 二、安装脚手架
 
@@ -49,7 +49,7 @@ website ├── blog // 包含博客的 Markdown 文件 │ ├── ... │ 
 # 进入根目录 cd website # 启动服务 npm run start
 ```
 
-默认情况下，浏览器会自动打开 [http://localhost:3000](https://link.juejin.cn/?target=http%3A%2F%2Flocalhost%3A3000 "http://localhost:3000") 的新窗口，如下： ![image.png](docusaurus_github_pages/b3125aabc7014118a82cdbf3c98c0831~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+默认情况下，浏览器会自动打开 [http://localhost:3000](https://link.juejin.cn/?target=http%3A%2F%2Flocalhost%3A3000 "http://localhost:3000") 的新窗口，如下： ![image.png](./b3125aabc7014118a82cdbf3c98c0831~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 ## 三、 配置 ❗
 
@@ -59,7 +59,7 @@ website ├── blog // 包含博客的 Markdown 文件 │ ├── ... │ 
 
 👆 title：网站标题。 会用于页面元数据中，以及浏览器选项卡标题。
 
-修改标题`title:'Kuriyama'`，可以看到： ![image.png](docusaurus_github_pages/fc31f13fa10b40ecb56621679dd99b81~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+修改标题`title:'Kuriyama'`，可以看到： ![image.png](./fc31f13fa10b40ecb56621679dd99b81~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 ✌️ url：网站网址。 你可以把它看作是顶级主机名。
 
@@ -75,7 +75,7 @@ website ├── blog // 包含博客的 Markdown 文件 │ ├── ... │ 
 
 -   tagline：网站标语。
 
-修改标语`tagline:'没有未来的未来，不是我想要的未来'`，可以看到： ![image.png](docusaurus_github_pages/5a3f5e4ae1064c0fbdd94517beb4ed95~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+修改标语`tagline:'没有未来的未来，不是我想要的未来'`，可以看到： ![image.png](./5a3f5e4ae1064c0fbdd94517beb4ed95~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 -   onBrokenLinks：Docusaurus 在检测到无效链接时的行为。
 
@@ -87,7 +87,7 @@ website ├── blog // 包含博客的 Markdown 文件 │ ├── ... │ 
 
 -   favicon：你的网站图标的路径；必须是可以用于链接 href 的 URL。 比如，如果你的图标位于 static/img/favicon.ico：
 
-`favicon:'img/favicon.ico'`，可以看到： ![image.png](docusaurus_github_pages/8c71bbd562af4eca8dc057a96f05c070~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+`favicon:'img/favicon.ico'`，可以看到： ![image.png](./8c71bbd562af4eca8dc057a96f05c070~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 -   i18n：用于[本地化站点](https://link.juejin.cn/?target=https%3A%2F%2Fdocusaurus.io%2Fzh-CN%2Fdocs%2Fi18n%2Fintroduction "https://docusaurus.io/zh-CN/docs/i18n/introduction")的 i18n 配置对象。
 
@@ -111,7 +111,7 @@ presets: [ [ 'classic', /** @type {import('@docusaurus/preset-classic').Options}
 navbar: { title: 'Kuriyama的博客', // 标题 hideOnScroll: false, // 下拉界面时不隐藏导航栏 items: [ { type: 'search', // 搜索框 现在还没做好... position: 'right', // 搜索框位置 在右边 }, { type: 'doc', // 把这个项目的类型设置为文档链接。 docId: 'HTML', // 这个项目链接到的文档的 ID。 position: 'right', // 显示位置 在右边 label: '正文', // 项目显示的名称 }, { href: 'https://github.com/Dcose', // 点击图标时跳转到的链接 label: 'GitHub', // 项目显示的名称 position: 'right', // 显示位置 在右边 }, ], },
 ```
 
-可以看到导航栏的改变： ![image.png](docusaurus_github_pages/5130289162bb4b1d8f1302e6ea591598~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+可以看到导航栏的改变： ![image.png](./5130289162bb4b1d8f1302e6ea591598~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 > prism：语法高亮主题
 
@@ -131,7 +131,7 @@ colorMode: { respectPrefersColorScheme: true, // 根据系统配色改变色彩�
 const lightCodeTheme = require('prism-react-renderer/themes/github'); const darkCodeTheme = require('prism-react-renderer/themes/dracula'); /** @type {import('@docusaurus/types').Config} */ const config = { title: 'Kuriyama', tagline: '没有未来的未来，不是我想要的未来', url: 'https://your-docusaurus-test-site.com', baseUrl: '/', onBrokenLinks: 'throw', onBrokenMarkdownLinks: 'warn', favicon: 'img/favicon.ico', i18n: { defaultLocale: 'zh-Hans', locales: ['zh-Hans'], }, presets: [ [ 'classic', /** @type {import('@docusaurus/preset-classic').Options} */ ({ docs: { sidebarPath: require.resolve('./sidebars.js'), }, blog: { showReadingTime: true, }, theme: { customCss: require.resolve('./src/css/custom.css'), }, }), ], ], themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({ navbar: { title: 'Kuriyama的博客', hideOnScroll: false, items: [ { type: 'search', position: 'right', }, { type: 'doc', docId: 'HTML', position: 'right', label: '正文', }, { href: 'https://github.com/Dcose', label: 'GitHub', position: 'right', }, ], }, prism: { theme: lightCodeTheme, darkTheme: darkCodeTheme, defaultLanguage: 'javascript', }, colorMode: { respectPrefersColorScheme: true, }, }), }; module.exports = config;
 ```
 
-效果如下： ![image.png](docusaurus_github_pages/20f8da47abb44002bb09a9847c3a2f93~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp) ![image.png](docusaurus_github_pages/a6a30378b1b24cfbb54a8746abdb466c~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+效果如下： ![image.png](./20f8da47abb44002bb09a9847c3a2f93~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp) ![image.png](./a6a30378b1b24cfbb54a8746abdb466c~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 #### 个性化
 
@@ -169,7 +169,7 @@ npm run serve
 
 5.  在 github 新建一个仓库
 
-名字：dcose.github.io ![image.png](docusaurus_github_pages/c7031180bb344b5294b86f44ffdfda17~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+名字：dcose.github.io ![image.png](./c7031180bb344b5294b86f44ffdfda17~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 6.  在项目的根目录下新建一个`deploy.sh`脚本文件，注意修改对应的用户名和仓库名：
 
@@ -183,11 +183,11 @@ npm run serve
 
 6.  打开 github 仓库，可以看到 gh-pages 推送的静态文件了：
 
-![image.png](docusaurus_github_pages/ef1aa76548d84f179d0678cc175920b6~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+![image.png](./ef1aa76548d84f179d0678cc175920b6~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
 
 7.  点击 setting，找到 Pages，就可以看到我们生成的[博客地址](https://link.juejin.cn/?target=https%3A%2F%2Fdcose.github.io%2F "https://dcose.github.io/")：
 
-![image.png](docusaurus_github_pages/5721e3ba322246d4a0bcea877c6ad3a4~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp) 完成部署！！！
+![image.png](./5721e3ba322246d4a0bcea877c6ad3a4~tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp) 完成部署！！！
 
 ## 五、 总结
 
