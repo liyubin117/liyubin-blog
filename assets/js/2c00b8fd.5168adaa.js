@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkliyubin_blog"] = self["webpackChunkliyubin_blog"] || []).push([[4186],{
+(self["webpackChunkliyubin_blog"] = self["webpackChunkliyubin_blog"] || []).push([[30],{
 
-/***/ 9073:
+/***/ 121:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,10 +10,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_docusaurus_github_pages_md_2dd_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_docusaurus_github_pages_docusaurus_github_pages_md_2c0_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_docusaurus_github_pages_md_2dd_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7676);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_docusaurus_github_pages_docusaurus_github_pages_md_2c0_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(785);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
@@ -120,7 +120,7 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "本文  详细介绍了基于 Docusaurus + Github Pages 搭建博客的过程，包括环境准备（git 和 Node 下载）、安装脚手架、项目结构、配置（必填和可选字段）、个性化主题、部署（生成静态文件、配置相关文件、本地测试等），最后进行了总结。"
+      children: "本文详细介绍了基于 Docusaurus + Github Pages 搭建博客的过程，包括环境准备（git 和 Node 下载）、安装脚手架、项目结构、配置（必填和可选字段）、个性化主题、部署（生成静态文件、配置相关文件、本地测试等），最后进行了总结。"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "关联问题: Docusaurus有何优势 Node版本如何选择 部署能换分支吗"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
@@ -790,10 +790,10 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 7676:
+/***/ 785:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/docusaurus_github_pages","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/docusaurus_github_pages.md","source":"@site/blog/docusaurus_github_pages.md","title":"Docusaurus+GithubPages搭博客","description":"本文  详细介绍了基于 Docusaurus + Github Pages 搭建博客的过程，包括环境准备（git 和 Node 下载）、安装脚手架、项目结构、配置（必填和可选字段）、个性化主题、部署（生成静态文件、配置相关文件、本地测试等），最后进行了总结。","date":"2024-12-20T03:35:10.000Z","tags":[{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"},{"inline":true,"label":"github pages","permalink":"/blog/tags/github-pages"}],"readingTime":10.625,"hasTruncateMarker":false,"authors":[{"name":"转载","title":"others","key":"转载","page":null}],"frontMatter":{"slug":"docusaurus_github_pages","title":"Docusaurus+GithubPages搭博客","authors":"转载","tags":["docusaurus","github pages"]},"unlisted":false,"nextItem":{"title":"Welcome","permalink":"/blog/welcome"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/docusaurus_github_pages","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/docusaurus_github_pages/docusaurus_github_pages.md","source":"@site/blog/docusaurus_github_pages/docusaurus_github_pages.md","title":"Docusaurus+GithubPages搭博客","description":"本文详细介绍了基于 Docusaurus + Github Pages 搭建博客的过程，包括环境准备（git 和 Node 下载）、安装脚手架、项目结构、配置（必填和可选字段）、个性化主题、部署（生成静态文件、配置相关文件、本地测试等），最后进行了总结。","date":"2024-12-20T03:35:10.000Z","tags":[{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"},{"inline":true,"label":"github pages","permalink":"/blog/tags/github-pages"}],"readingTime":10.625,"hasTruncateMarker":false,"authors":[{"name":"转载","title":"others","key":"转载","page":null}],"frontMatter":{"slug":"docusaurus_github_pages","title":"Docusaurus+GithubPages搭博客","authors":"转载","tags":["docusaurus","github pages"]},"unlisted":false,"nextItem":{"title":"Welcome","permalink":"/blog/welcome"}}');
 
 /***/ })
 
