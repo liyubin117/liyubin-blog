@@ -119,11 +119,7 @@ function _createMdxContent(props) {
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "本文详细介绍了基于 Docusaurus + Github Pages 搭建博客的过程，包括环境准备（git 和 Node 下载）、安装脚手架、项目结构、配置（必填和可选字段）、个性化主题、部署（生成静态文件、配置相关文件、本地测试等），最后进行了总结。"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "关联问题: Docusaurus有何优势 Node版本如何选择 部署能换分支吗"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
       id: "前言",
       children: "前言"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
@@ -189,8 +185,7 @@ function _createMdxContent(props) {
       children: "1. 初始化新项目："
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-shell",
-        children: "npm init docusaurus\n"
+        children: "npm init docusaurus\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "控制台会提示输入项目名称、模板等信息，这里一直回车向后就可以，这些信息都是可以自己修改的。"
@@ -205,16 +200,14 @@ function _createMdxContent(props) {
       }), "："]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "website ├── blog // 包含博客的 Markdown 文件 │ ├── ... │ └── ... ├── docs // 包含文档的 Markdown 文件 │ ├── ... │ └── ... ├── src // 如页面或自定义 React 组件一类的非文档文件 │ ├──components │ │ └── HomepageFeatures │ │ ├── styles.module.css │ │ └── index.jsindex.js │ ├── css // 页面的 css 样式 │ │ └── custom.css │ └── pages // 所有放在此目录中的 JSX/TSX/MDX 文件都会被转换成网站页面 │ ├── styles.module.css │ └── index.js ├── static // 静态目录，保存头像等文件 │ ├── img │ └── .nojekyll ├── babel.config.js // JavaScript 编译配置文件 ├── docusaurus.config.js // 站点配置文件！！ ├── package.json // 包管理文件 └── sidebars.js // 由文档使用，用于指定侧边栏中的文档顺序\n"
+        children: "website\n├── blog\t\t// 包含博客的 Markdown 文件\n│    ├── ...\n│    └── ...\n├── docs\t\t// 包含文档的 Markdown 文件\n│   ├── ...\n│   └── ...\n├── src\t\t\t// 如页面或自定义 React 组件一类的非文档文件\n│   ├──components\n│   │     └── HomepageFeatures\n│   │\t          ├── styles.module.css\n│   │             └── index.jsindex.js\n│   ├── css\t\t// 页面的 css 样式\n│   │   └── custom.css\n│   └── pages\t\t\t// 所有放在此目录中的 JSX/TSX/MDX 文件都会被转换成网站页面\n│       ├── styles.module.css\n│       └── index.js\n├── static\t// 静态目录，保存头像等文件\n│   ├── img\n│   └── .nojekyll\n├── babel.config.js\t\t\t// JavaScript 编译配置文件\n├── docusaurus.config.js\t\t//  站点配置文件！！\n├── package.json\t// 包管理文件\n└── sidebars.js\t\t// 由文档使用，用于指定侧边栏中的文档顺序\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "3-运行开发服务器",
       children: "3. 运行开发服务器"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-shell",
-        children: "# 进入根目录 cd website # 启动服务 npm run start\n"
+        children: "# 进入根目录\ncd website\n# 启动服务\nnpm run start\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: ["默认情况下，浏览器会自动打开 ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
@@ -338,8 +331,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "// 设置默认语言为中文简体 i18n: { defaultLocale: 'zh-Hans', locales: ['zh-Hans'], },\n"
+        children: "// 设置默认语言为中文简体\ni18n: {\n  defaultLocale: 'zh-Hans',\n  locales: ['zh-Hans'],\n},\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
@@ -347,8 +339,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "presets: [ [ 'classic', /** @type {import('@docusaurus/preset-classic').Options} */ ({ docs: { // 文档 sidebarPath: require.resolve('./sidebars.js'), // 侧边栏 // editUrl: '' // 编辑此页面的链接 }, blog: { // 博客 showReadingTime: true, // 在博文上显示估计阅读时间 // editUrl: '' // 编辑此页面的链接 }, theme: { // 主题 customCss: require.resolve('./src/css/custom.css'), // 自定义 css }, }), ], ],\n"
+        children: "\npresets: [\n  [\n    'classic',\n    /** @type {import('@docusaurus/preset-classic').Options} */\n    ({\n      docs: {\t// 文档\n        sidebarPath: require.resolve('./sidebars.js'), // 侧边栏\n        // editUrl: '' // 编辑此页面的链接\n      },\n      blog: { // 博客\n        showReadingTime: true, // 在博文上显示估计阅读时间\n        // editUrl: '' // 编辑此页面的链接\n      },\n      theme: { // 主题\n        customCss: require.resolve('./src/css/custom.css'), // 自定义 css\n      },\n    }),\n  ],\n],\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h4, {
       id: "主题配置",
@@ -363,8 +354,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "navbar: { title: 'Kuriyama的博客', // 标题 hideOnScroll: false, // 下拉界面时不隐藏导航栏 items: [ { type: 'search', // 搜索框 现在还没做好... position: 'right', // 搜索框位置 在右边 }, { type: 'doc', // 把这个项目的类型设置为文档链接。 docId: 'HTML', // 这个项目链接到的文档的 ID。 position: 'right', // 显示位置 在右边 label: '正文', // 项目显示的名称 }, { href: 'https://github.com/Dcose', // 点击图标时跳转到的链接 label: 'GitHub', // 项目显示的名称 position: 'right', // 显示位置 在右边 }, ], },\n"
+        children: "navbar: {\n  title: 'Kuriyama的博客', // 标题\n  hideOnScroll: false,\t\t// 下拉界面时不隐藏导航栏\n  items: [\n    {\n      type: 'search',\t\t\t// 搜索框 现在还没做好...\n      position: 'right', \t// 搜索框位置 在右边\n    },\n    {\n      type: 'doc',\t\t\t\t// 把这个项目的类型设置为文档链接。\n      docId: 'HTML',\t\t\t// 这个项目链接到的文档的 ID。\n      position: 'right',\t// 显示位置 在右边\n      label: '正文',\t\t\t// 项目显示的名称\n    },\n    {\n      href: 'https://github.com/Dcose',\t// 点击图标时跳转到的链接\n      label: 'GitHub',\t\t// 项目显示的名称\n      position: 'right',\t// 显示位置 在右边\n    },\n  ],\n},\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: ["可以看到导航栏的改变： ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
@@ -379,8 +369,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "prism: { theme: lightCodeTheme, // 用于浅色模式下代码块的 Prism 主题 darkTheme: darkCodeTheme, // 用于暗黑模式下代码块的 Prism 主题 defaultLanguage: 'javascript', // 项目应该出现在导航栏的哪一侧 },\n"
+        children: "prism: {\n  theme: lightCodeTheme,\t\t\t\t\t// 用于浅色模式下代码块的 Prism 主题\n  darkTheme: darkCodeTheme,\t\t\t\t// 用于暗黑模式下代码块的 Prism 主题\n  defaultLanguage: 'javascript',\t// 项目应该出现在导航栏的哪一侧\n},\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.blockquote, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
@@ -388,15 +377,13 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "colorMode: { respectPrefersColorScheme: true, // 根据系统配色改变色彩模式 },\n"
+        children: "colorMode: {\n  respectPrefersColorScheme: true,\t// 根据系统配色改变色彩模式\n},\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "配置完成的 docusaurus.config.js（含默认配置）："
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "const lightCodeTheme = require('prism-react-renderer/themes/github'); const darkCodeTheme = require('prism-react-renderer/themes/dracula'); /** @type {import('@docusaurus/types').Config} */ const config = { title: 'Kuriyama', tagline: '没有未来的未来，不是我想要的未来', url: 'https://your-docusaurus-test-site.com', baseUrl: '/', onBrokenLinks: 'throw', onBrokenMarkdownLinks: 'warn', favicon: 'img/favicon.ico', i18n: { defaultLocale: 'zh-Hans', locales: ['zh-Hans'], }, presets: [ [ 'classic', /** @type {import('@docusaurus/preset-classic').Options} */ ({ docs: { sidebarPath: require.resolve('./sidebars.js'), }, blog: { showReadingTime: true, }, theme: { customCss: require.resolve('./src/css/custom.css'), }, }), ], ], themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({ navbar: { title: 'Kuriyama的博客', hideOnScroll: false, items: [ { type: 'search', position: 'right', }, { type: 'doc', docId: 'HTML', position: 'right', label: '正文', }, { href: 'https://github.com/Dcose', label: 'GitHub', position: 'right', }, ], }, prism: { theme: lightCodeTheme, darkTheme: darkCodeTheme, defaultLanguage: 'javascript', }, colorMode: { respectPrefersColorScheme: true, }, }), }; module.exports = config;\n"
+        children: "const lightCodeTheme = require('prism-react-renderer/themes/github');\nconst darkCodeTheme = require('prism-react-renderer/themes/dracula');\n\n/** @type {import('@docusaurus/types').Config} */\nconst config = {\n  title: 'Kuriyama',\n  tagline: '没有未来的未来，不是我想要的未来',\n  url: 'https://your-docusaurus-test-site.com',\n  baseUrl: '/',\n  onBrokenLinks: 'throw',\n  onBrokenMarkdownLinks: 'warn',\n  favicon: 'img/favicon.ico',\n  i18n: {\n    defaultLocale: 'zh-Hans',\n    locales: ['zh-Hans'],\n  },\n  presets: [\n    [\n      'classic',\n      /** @type {import('@docusaurus/preset-classic').Options} */\n      ({\n        docs: {\n          sidebarPath: require.resolve('./sidebars.js'),\n        },\n        blog: {\n          showReadingTime: true,\n        },\n        theme: {\n          customCss: require.resolve('./src/css/custom.css'),\n        },\n      }),\n    ],\n  ],\n  themeConfig:\n    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */\n    ({\n      navbar: {\n        title: 'Kuriyama的博客',\n        hideOnScroll: false,\n        items: [\n          {\n            type: 'search',\n            position: 'right',\n          },\n          {\n            type: 'doc',\n            docId: 'HTML',\n            position: 'right',\n            label: '正文',\n          },\n          {\n            href: 'https://github.com/Dcose',\n            label: 'GitHub',\n            position: 'right',\n          },\n        ],\n      },\n      prism: {\n        theme: lightCodeTheme,\n        darkTheme: darkCodeTheme,\n        defaultLanguage: 'javascript',\n      },\n      colorMode: {\n        respectPrefersColorScheme: true,\n      },\n    }),\n};\n\nmodule.exports = config;\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: ["效果如下： ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.img, {
@@ -432,8 +419,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-shell",
-        children: "npm run build\n"
+        children: "npm run build\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.blockquote, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
@@ -448,8 +434,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "... const config = { url: 'https://dcose.github.io', baseUrl: '/', ... organizationName: 'Dcose', // 一般是 github 的名字 projectName: 'dcose', // 一般是仓库的名称 deploymentBranch: 'gh-pages', // 要把静态文件部署到的分支名称 ... }; module.exports = config;\n"
+        children: "...\nconst config = {\n  url: 'https://dcose.github.io',\n  baseUrl: '/',\n\n  ...\n\n  organizationName: 'Dcose', // 一般是 github 的名字\n  projectName: 'dcose', // 一般是仓库的名称\n  deploymentBranch: 'gh-pages', // 要把静态文件部署到的分支名称\n\n  ...\n\n};\n\nmodule.exports = config;\n\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
       start: "3",
@@ -460,8 +445,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-javascript",
-        children: "{ \"name\": \"dcose\", // 项目名称 ... \"scripts\": { ... \"deploy\": \"GIT_USER=dcose docusaurus deploy\", // 部署用户名设置 ... }, ... }\n"
+        children: "{\n  \"name\": \"dcose\", // 项目名称\n \t...\n  \"scripts\": {\n    ...\n    \"deploy\": \"GIT_USER=dcose docusaurus deploy\", // 部署用户名设置\n   \t...\n  },\n  ...\n}\n\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
       start: "4",
@@ -472,8 +456,7 @@ function _createMdxContent(props) {
       children: "可以快速定位部署项目可能存在的问题："
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-shell",
-        children: "npm run serve\n"
+        children: "npm run serve\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
       start: "5",
@@ -496,8 +479,7 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
-        className: "language-shell",
-        children: "#!/usr/bin/env sh # 确保脚本抛出遇到的错误 set -e # 生成静态文件 npm run build # 进入生成的文件夹 cd build # 如果是发布到自定义域名 # echo 'www.example.com' > CNAME git init git add -A git commit -m 'deploy' # 如果发布到 https://<USERNAME>.github.io # git push -f git@github.com:messiahhh/messiahhh.github.io.git master # 如果发布到 https://<USERNAME>.github.io/<REPO> # git push -f git@github.com:messiahhh/blog.git master:gh-pages git push -f https://${access_token}@github.com/Dcose/dcose.github.io.git master:gh-pages cd -\n"
+        children: "#!/usr/bin/env sh\n# 确保脚本抛出遇到的错误\nset -e\n# 生成静态文件\nnpm run build\n# 进入生成的文件夹\ncd build\n# 如果是发布到自定义域名\n# echo 'www.example.com' > CNAME\n\ngit init\ngit add -A\ngit commit -m 'deploy'\n# 如果发布到 https://<USERNAME>.github.io\n# git push -f git@github.com:messiahhh/messiahhh.github.io.git master\n\n# 如果发布到 https://<USERNAME>.github.io/<REPO>\n# git push -f git@github.com:messiahhh/blog.git master:gh-pages\ngit push -f https://${access_token}@github.com/Dcose/dcose.github.io.git master:gh-pages\n\ncd -\n\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
       start: "5",
@@ -793,7 +775,7 @@ function MDXProvider(properties) {
 /***/ 785:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/docusaurus_github_pages","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/docusaurus_github_pages/docusaurus_github_pages.md","source":"@site/blog/docusaurus_github_pages/docusaurus_github_pages.md","title":"Docusaurus+GithubPages搭博客","description":"本文详细介绍了基于 Docusaurus + Github Pages 搭建博客的过程，包括环境准备（git 和 Node 下载）、安装脚手架、项目结构、配置（必填和可选字段）、个性化主题、部署（生成静态文件、配置相关文件、本地测试等），最后进行了总结。","date":"2024-12-20T03:35:10.000Z","tags":[{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"},{"inline":true,"label":"github pages","permalink":"/blog/tags/github-pages"}],"readingTime":10.625,"hasTruncateMarker":false,"authors":[{"name":"转载","title":"others","key":"转载","page":null}],"frontMatter":{"slug":"docusaurus_github_pages","title":"Docusaurus+GithubPages搭博客","authors":"转载","tags":["docusaurus","github pages"]},"unlisted":false,"nextItem":{"title":"Welcome","permalink":"/blog/welcome"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/docusaurus_github_pages","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/docusaurus_github_pages/docusaurus_github_pages.md","source":"@site/blog/docusaurus_github_pages/docusaurus_github_pages.md","title":"Docusaurus+GithubPages搭博客","description":"前言","date":"2024-12-20T03:35:10.000Z","tags":[{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"},{"inline":true,"label":"github pages","permalink":"/blog/tags/github-pages"}],"readingTime":10.04,"hasTruncateMarker":false,"authors":[{"name":"转载","title":"others","key":"转载","page":null}],"frontMatter":{"slug":"docusaurus_github_pages","title":"Docusaurus+GithubPages搭博客","authors":"转载","tags":["docusaurus","github pages"]},"unlisted":false,"nextItem":{"title":"Welcome","permalink":"/blog/welcome"}}');
 
 /***/ })
 
